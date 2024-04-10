@@ -1,0 +1,120 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=swap');
+
+:root{
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: "M PLUS 1 Code", monospace;
+}
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+}
+
+html, body{
+    min-height: 100vh;
+    background-color:darkgray;
+    font-family: var(--fonte1);
+
+}
+
+header{
+    background-color:black;
+    color: white;
+    text-align: center;
+    box-shadow: inset 0px -6px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+header>h1{
+    color: firebrick;
+    padding-top:50px;
+    font-family:var(--fonte2);
+    font-size: 5em;
+}
+header>p{
+    color: white;
+    padding-bottom: 50px;
+    font-family:var(--fonte2);
+    font-weight: 500;
+    
+}
+
+a{
+    color:firebrick;
+    text-decoration: none;
+    font-weight: bolder;
+}
+a:hover{
+    text-decoration: underline;
+    color: firebrick;
+    
+}
+section{
+    padding-top:10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+    font-family: var(--fonte2);
+    font-size:large;
+    font-weight: 600;
+    text-align: center;
+}
+section>p{
+    padding-bottom: 2em;
+    text-align:justify;
+    
+}
+
+.normal{
+    background-color: white;
+    color: black;
+    
+    
+    
+}
+.normal>p{
+    text-align:center;
+}
+.imagem{
+    background-color: rgb(41, 40, 40);
+    color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.589);
+    background-attachment: fixed;
+
+}
+.imagem>p{
+    display: inline-block;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.829);
+    width: 350px;
+    text-align: center;
+    
+}
+#img01{
+    background-image: url(../img/imrs.jpg) ;
+    background-position: center;
+        
+}
+#img02{
+    background-image: url("../img/1556868.jpeg") ;
+    
+}
+#img03{
+    background-image:url(../img/imrs.jpg);
+    background-position: center;
+    
+
+    
+    
+}
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    font-family: var(--fonte2);
+}
